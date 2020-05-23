@@ -1,0 +1,8 @@
+{
+“name”: “CS Strats Bot”,
+“version”: “1.0”,
+“description”: “CS:GO Strat Roulette by @combat#7871”,
+“main”: “bot.py”,
+“author”: “Robin "Combat" Hugill”,
+“dependencies”: {}
+}
