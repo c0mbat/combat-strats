@@ -59,7 +59,7 @@ async def invite(ctx):
     clientID = read_client()    #the client ID is read from a seperate file
     perms = discord.Permissions(permissions=2048)
     inv = discord.utils.oauth_url(clientID, permissions=perms)
-    await ctx.send("You can add me to your server by going clicking this link:\n\n"+inv)
+    await ctx.send("You can add me to your server by clicking this link:\n\n"+inv)
 
 @client.command()            #this is for debugging, left in because why not
 async def ping(ctx):
