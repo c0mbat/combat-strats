@@ -39,8 +39,8 @@ async def c(ctx, level="strats"):
 async def usage(ctx):
     embed = discord.Embed(colour=discord.Colour(0xb800a8), url="https://www.youtube.com/combatrust")
 
-    embed.set_author(name="How to use CS Strats Bot")              #this is a simple Discord embed that displays help on how to use the bot
-    embed.set_footer(text="CS:GO Strats Bot by @combat#7871")
+    embed.set_author(name="How to use StratrouletteCS")              #this is a simple Discord embed that displays help on how to use the bot
+    embed.set_footer(text="StratrouletteCS by @combat#7871")
 
     embed.add_field(name="*`]c` or `]t`*", value="   ... will return a random Counter-Terrorist or Terrorist strategy.")
     embed.add_field(name="*Specify a map by adding the map name after the command:*", value="`]c <map name> ` or `]t <map name>`", inline=True)
